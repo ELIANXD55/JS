@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT CURSO</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            FIGURAS GEOMETRICAS
+        </h1>
+        <p>primer taller del curso practico de JS</p>
+    </header>
+
+    <section>
+        <h2>
+            CALCULA EL AREA Y EL PERIMETRO DE UN CUADRADO
+        </h2>
+        <form>
+            <label>
+                Escriban cuanto miden cada lado de tu caudrado
+            </label>
+            <input id="cuadrado" type="number" />
+            <button type="button" onclick="calcularperimatrocuadrado()">
+                CALCULAR EL PERIMETRO
+            </button>
+            <button type="button" onclick="calcularareacuadrado()">
+                CALCULAR EL AREA
+            </button>
+        </form>
+
+        <!--TRIANGULO-->
+        <h2>
+            CALCULA EL AREA Y EL PERIMETRO DE UN CUADRADO
+        </h2>
+        <form>
+            <label>
+                LADO1
+            </label>
+            <input id="lado1" type="number" />
+            <label>
+                LADO2
+            </label>
+            <input id="lado2" type="number" />
+            <label>
+                BASE
+            </label>
+            <input id="base" type="number" />
+            <button type="button" onclick="calcularperimetrodeltriagulo()">
+                CALCULAR EL PERIMETRO
+            </button>
+            <button type="button" onclick="calcularareatriagulo()">
+                CALCULAR EL AREA
+            </button>
+        </form>
+        <!--triangulo-->
+
+        <!--CIRUCLO-->
+        <h2>
+            CALCULA EL AREA Y EL PERIMETRO DE UN CIRUCLO
+        </h2>
+        <form>
+            <label>
+                Escriban cuanto miden radio
+            </label>
+            <input id="circulo" type="number" />
+            <button type="button" onclick="perimetrocirculo()">
+                CALCULAR EL PERIMETRO
+            </button>
+            <button type="button" onclick="areacirculo()">
+                CALCULAR EL AREA
+            </button>
+        </form>
+        <!--/cirulo-->
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
