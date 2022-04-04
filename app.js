@@ -124,5 +124,25 @@ function areacirculo(){
   alert(circuloare);
 }
 
+/* PORCENTAJE ;3 */
+function calcularpreciocondescuento(precio,descuento){
+
+  const prcentajeprecioncondescuento = 100 - descuento;
+  const precicondescuento = (precio*(prcentajeprecioncondescuento))/ 100;
+
+  return precicondescuento;
+}
+
+function preciocondescuento(){
+
+const precio = document.getElementById("precio");
+const valorprecio = precio.value;
+const descuento = document.getElementById("porcentaje");
+const valordescuento = descuento.value;
+
+const calcular =  calcularpreciocondescuento(valorprecio,valordescuento);
+const resul = document.getElementById("resultado");
+resul.innerText = "El precio del descuento son $" + calcular
+}
 
 
